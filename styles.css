@@ -1,0 +1,61 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+input {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+button {
+  background: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
+}
+
+textarea {
+  display: block;
+  width: 80%;
+  height: 100px;
+  margin: 10px auto;
+  padding: 10px;
+  resize: none;
+}
+
+#logout {
+  background: red;
+  margin-top: 20px;
+}
+
+#post-content {
+  width: 80%;
+  height: 80px;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+}
+
+#feed-container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+#feed-container div {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}

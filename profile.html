@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Setup - Dev-Connect</title>
+    <script type="module" src="profile.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Complete Your Profile</h2>
+    
+    <form id="profile-form">
+        <input type="text" id="profile-name" placeholder="Full Name" required>
+        <input type="text" id="profile-skills" placeholder="Skills (comma separated)" required>
+        <input type="text" id="profile-github" placeholder="GitHub Profile Link" required>
+        <textarea id="profile-bio" placeholder="Short Bio" required></textarea>
+        <button type="submit">Save Profile</button>
+    </form>
+
+    <button id="logout">Logout</button>
+</body>
+</html>
